@@ -28,9 +28,6 @@ const randomColor = function () {
     clearInterval(intervalid)
     intervalid = null; // by doing this our code is more efficient 
   }
-
-
+  
   document.querySelector('#start').addEventListener('click', startChangingColor)
-
   document.querySelector('#stop').addEventListener('click', stopChangingColor)
-
